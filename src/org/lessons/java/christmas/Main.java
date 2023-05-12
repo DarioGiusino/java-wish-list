@@ -23,11 +23,11 @@ public class Main {
 						+ " elemento/i. Vuoi continuare ad inserirne altri?");
 			} else {
 				System.out.println("Grazie, ecco la lista dei tuoi desideri: ");
-				
-				for(String s : wishList) {
+
+				for (String s : wishList) {
 					System.out.println(s);
 				}
-				
+				sc.close();
 				return;
 			}
 		}
