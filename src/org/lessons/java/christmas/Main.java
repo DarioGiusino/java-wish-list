@@ -12,7 +12,7 @@ public class Main {
 		List<String> wishList = new ArrayList<>();
 
 		while (true) {
-			System.out.print("Vuoi inserire un nuovo desiderio: ");
+			System.out.print("Vuoi inserire un nuovo desiderio? ");
 			Boolean bool = sc.nextBoolean();
 
 			if (bool) {
@@ -20,7 +20,7 @@ public class Main {
 				String wish = sc.next();
 				wishList.add(wish);
 				System.out.println("La lista dei tuoi desideri contiene " + wishList.size()
-						+ " elemento/i. Vuoi continuare ad inserirne altri?");
+						+ " elemento/i.");
 			} else {
 				System.out.println("Grazie, ecco la lista dei tuoi desideri: ");
 
