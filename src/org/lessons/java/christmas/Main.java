@@ -22,7 +22,12 @@ public class Main {
 				System.out.println("La lista dei tuoi desideri contiene " + wishList.size()
 						+ " elemento/i. Vuoi continuare ad inserirne altri?");
 			} else {
-				System.out.println("Grazie e arrivederci!");
+				System.out.println("Grazie, ecco la lista dei tuoi desideri: ");
+				
+				for(String s : wishList) {
+					System.out.println(s);
+				}
+				
 				return;
 			}
 		}
